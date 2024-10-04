@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-column {
+    width: 35%;
+    background-color: #647c73;
+    color: white;
+    padding: 30px;
+}
+
+.right-column {
+    width: 65%;
+    padding: 30px;
+}
+
+.profile-photo img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20;
+    border: px solid #2881ca;
+    
+} 
+
+h1 {
+    font-size: 2.5em;
+    color: #235d64;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #235d64;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: white;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.kontak-item {
+    display: flex;
+    align-items:center;
+    margin-bottom: 5px;
+}
+
+.kontak-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.right-column h2 {
+    color: #235d64;
+}
+
+.edu-item, .exp-item {
+    margin-bottom: 20px;
+}
+
+.exp-item h3, .edu-item h3 {
+    color: #235d64;
+    margin-bottom: 5px;
+}
+
+.exp-item span, .edu-item span {
+    color: #235d64;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.exp-item ul, .edu-item ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.exp-item ul li, .edu-item ul li {
+    margin-bottom: 8px;
+}
